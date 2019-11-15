@@ -1,0 +1,44 @@
+Version: 1.0
+
+Note: 
+  - Commands to run on terminal are given in ""
+
+Contents:
+	- icx_banner
+	- icx_command
+	- icx_config
+	- icx_copy
+	- icx_facts
+	- icx_interface
+	- icx_l3_interface
+	- icx_linkagg
+	- icx_lldp
+	- icx_logging
+	- icx_ping
+	- icx_static_route
+	- icx_system
+	- icx_user
+	- icx_vlan
+	- example playbooks
+	- Generated docs
+
+Prerequisite
+	- Ansible release version: 2.7.8 is installed and working.
+      
+Install icx modules:
+	- "chmod +x easy_install"
+    -  "./easy_install"
+
+Run example playbooks:
+	 - Extract icx_examples.tar.gz
+	 - Edit hosts. Set switch ip address/s as required
+	 - "ansible-playbook XXXX.yml" (where XXXX.yml is the name of the playbook you want to run)
+
+View module docs:
+	- Extract docs.tar.gz
+	- Open "html/index.html" in browser
+
+	 
+	 
+
+
